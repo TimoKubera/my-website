@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Versteckt die Scrollbars in Webkit-basierten Browsern (z.B. Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box; /* Stellt sicher, dass Padding und Border in der Breite und Höhe enthalten sind */
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::selection {
+  background: #302e28; /* Hintergrundfarbe der Textauswahl */
+  color: #ffffff; /* Textfarbe der Textauswahl */
+}
+
+img.responsive {
+  max-width: 100%;
+  height: auto;
+}

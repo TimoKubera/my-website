@@ -1,0 +1,45 @@
+.chatbox-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .chatbox {
+    background-color: #fff7db;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; /* Ursprünglicher Zustand ohne Rahmen */
+    resize: none;
+    outline: none; /* Standard-Rahmen beim Fokussieren entfernen */
+    margin-top: 5%;
+    caret-color: #000000; /* Farbe des Cursors sicherstellen */
+    overflow-y: auto; /* Scrollbar bei Überlauf */
+    scrollbar-width: thin; /* Dünne Scrollbar */
+    scrollbar-color: #000000 #f0f0f0;
+    font-size: 24px;
+  }
+  
+  .char-count {
+    margin-top: 5px; /* Abstand zur Chatbox */
+    text-align: right; /* Rechtsbündige Ausrichtung */
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Scrollbar-Stile für WebKit-basierte Browser */
+  .chatbox::-webkit-scrollbar {
+    width: 12px; /* Breite der Scrollbar */
+  }
+  
+  .chatbox::-webkit-scrollbar-track {
+    background: #fff5cf; /* Hintergrund der Scrollbar */
+  }
+  
+  .chatbox::-webkit-scrollbar-thumb {
+    background-color: black; /* Farbe der Scrollbar */
+    border-radius: 10px; /* Abgerundete Ecken */
+    border: 3px solid #fff5cf; /* Abstand zur Scrollbar */
+  }
